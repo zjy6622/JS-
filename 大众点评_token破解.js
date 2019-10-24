@@ -3432,11 +3432,10 @@ var _$_543c = ["\x75\x6E\x64\x65\x66\x69\x6E\x65\x64", "\x66\x75\x6E\x63\x74\x69
         , {}]
 }, {}, [17]);
 function tp(){
-    key="https://account.dianping.com/account/ajax/checkRisk?riskChannel=201&user=17352910858";
+    key="https://account.dianping.com/account/ajax/checkRisk?riskChannel=201&user=yourusername";//这里的username改为登陆名
     i = Rohr_Opt.reload(key);
-    console.log(i);
+    //console.log(i);
     return i;
-    // console.log(i);
-}
-tp()
+    }
+
 
