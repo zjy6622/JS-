@@ -1,4 +1,4 @@
-美团的token加密和大众点评类似,可以利用这个token获取商家信息
+
 ///////////////////////////////////
 navigator = {
     // WT-JS_DEBUG
@@ -3575,3 +3575,4 @@ function jm(page) {
     d =Rohr_Opt.reload(pw);
     return d
 };
+console.log(jm(2))
