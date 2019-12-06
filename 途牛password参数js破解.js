@@ -1,3 +1,5 @@
+//途牛password参数为MD5加密
+
 var CryptoJS = CryptoJS || (function (Math, undefined) {
     var C = {};
     var C_lib = C.lib = {};
@@ -375,7 +377,7 @@ var CryptoJS = CryptoJS || (function (Math, undefined) {
     C.HmacMD5 = Hasher._createHmacHelper(MD5);
 }(Math));
 
-function MD5_Encrypt(word) {
+function MD5_Encrypt(word) {////加密函数////
     return CryptoJS.MD5(word).toString();
     //反转：
     //return CryptoJS.MD5(word).toString().split("").reverse().join("");
